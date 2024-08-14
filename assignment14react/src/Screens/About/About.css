@@ -1,0 +1,38 @@
+.ab{
+    background-image: url("../../assets/Hero-Background-D_KtWhEN.jpg");
+    height: 40vh;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; 
+}
+.ab1{
+    text-align: center;
+    color: white;
+
+}
+
+.but {
+    padding: 15px;
+    border: none;
+    margin: 20px;
+    width: 200px;
+    font-size: 1.1rem;
+    background-color: white;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.but:hover {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+}
